@@ -3,3 +3,6 @@ dist/
 node_modules/
 .snapshots/
 *.min.js
+*.min.css
+*.map
+*.gz
