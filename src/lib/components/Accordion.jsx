@@ -5,7 +5,7 @@ import {
     getButtonStyles,
     widthStyles,
     backgroundStyles
-} from '../helpers/getStyles'
+} from '../helpers/getStyles.js'
 
 const Accordion = ({
     data,
