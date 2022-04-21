@@ -1,9 +1,4 @@
 import React from 'react'
-
-import { Accordion } from 'reactjs-custom-accordion'
-import sampleData from './Data'
-import { ArrowRight } from 'react-bootstrap-icons'
-import { FaBed } from 'react-icons/fa'
 import Default from './components/Default'
 import WithIcons from './components/WithIcons'
 import WithOpen from './components/WithOpen'

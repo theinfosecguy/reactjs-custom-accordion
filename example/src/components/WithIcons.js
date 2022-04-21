@@ -7,7 +7,12 @@ import { FaBed } from 'react-icons/fa'
 function WithIcons() {
     return (
         <>
-            <h4>🚀 With Custom Icons </h4>
+            <h4>
+                <span role='img' aria-label='rocket'>
+                    🚀
+                </span>{' '}
+                With Custom Icons{' '}
+            </h4>
             <Accordion
                 data={sampleData}
                 PlusIcon={FaBed}

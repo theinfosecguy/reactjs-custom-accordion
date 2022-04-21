@@ -5,7 +5,13 @@ import sampleData from '../Data'
 function Default() {
     return (
         <>
-            <h4>🚀 Default</h4>
+            <h4>
+                <span role='img' aria-label='rocket'>
+                    {' '}
+                    🚀{' '}
+                </span>
+                Default
+            </h4>
             <Accordion data={sampleData} />
         </>
     )

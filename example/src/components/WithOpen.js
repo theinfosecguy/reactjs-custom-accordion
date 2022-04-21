@@ -5,7 +5,12 @@ import sampleData from '../Data'
 function WithOpen() {
     return (
         <>
-            <h4>🚀 With Open Accordion (Index Based) & Rounded Border </h4>
+            <h4>
+                <span role='img' aria-label='rocket'>
+                    🚀
+                </span>{' '}
+                With Open Accordion (Index Based) & Rounded Border{' '}
+            </h4>
             <Accordion
                 data={sampleData}
                 defaultOpen={true}
