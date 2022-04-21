@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { AiOutlinePlusSquare, AiOutlineMinusSquare } from 'react-icons/ai'
-import '../css/Accordion.css'
+import './styles/Accordion.css'
 import {
     getButtonStyles,
     widthStyles,
     backgroundStyles
 } from '../helpers/getStyles'
 
-export const Accordion = ({
+const Accordion = ({
     data,
     PlusIcon,
     MinusIcon,
@@ -103,3 +103,5 @@ export const Accordion = ({
         </section>
     )
 }
+
+export default Accordion

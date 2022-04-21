@@ -25,8 +25,7 @@
 
 .accordion-head {
     padding: 1.4rem 1rem;
-    width: 100%;
-    min-height: 70px;
+    /* min-height: 70px; */
 }
 
 .rounded-t {
@@ -45,7 +44,6 @@
 
 .accordion-body {
     animation: disappear 0.6s 1;
-    min-height: 50px;
     padding: 1rem 1rem;
 }
 
