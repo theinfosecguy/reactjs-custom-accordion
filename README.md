@@ -37,14 +37,18 @@ function Demo() {
   
   const sampleData = [
     {
-      title: 'title 1'
+      title: 'title 1',
       description: 'description 1'
+    },
+    {
+      title: 'title 2',
+      description: 'description 2'
     }
   ]
 
     return (
         <>
-            <h4>🚀 Default</h4>
+            <h4>🚀 Default Accordion with sample data</h4>
             <Accordion data={sampleData} />
         </>
     )
